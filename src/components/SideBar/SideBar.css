@@ -1,0 +1,44 @@
+.sidebar {
+  height: 100%;
+  padding: 2em 0 0 0;
+  background: #ffffff;
+  box-shadow: 1px 0px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* .content {
+  position: absolute;
+  width: 266px;
+  height: 519px;
+  left: -1px;
+} */
+
+.SideBarList {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.SideBarList .row {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: 4.25rem;
+  left: 0rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  /* background: #ffffff; */
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}

@@ -1,0 +1,139 @@
+.bodyoutline {
+  /* position: absolute; */
+  /* width: 90vw; */
+  /* min-height: 70vh; */
+  /* max-height: 100%; */
+  width: 90%;
+  /* overflow-y: scroll; */
+  /* left: 287px; */
+  /* top: 120px; */
+  /* margin-top: 5em; */
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+  /* position: absolute; */
+  /* width: 214px; */
+  height: 1.688rem;
+  /* left: 48px; */
+  /* top: 9px; */
+  margin-top: 4em;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.questionoutline {
+  /* position: absolute; */
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1rem 0;
+  min-height: 5rem;
+  /* left: 1%; */
+  /* top: 80px; */
+
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.questionoutline-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.disorder {
+  /* width: 276px; */
+  height: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  /* line-height: 41px; */
+
+  color: #000000;
+}
+
+.checkbox {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  left: 1046px;
+  top: 213px;
+
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+}
+
+.question {
+  /* position: absolute;
+  width: 967px;
+  height: 48px;
+  left: 374px;
+  top: 261px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.submitbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+
+  width: 14rem;
+  /* left: 17.9rem; */
+  /* top: 1.8rem; */
+  height: 4rem;
+
+  background: #00c2cb;
+  box-shadow: 0rem 1rem 2rem rgba(102, 100, 100, 0.15);
+  border: none;
+  border-radius: 10px;
+}
+
+.submittext {
+  width: 160px;
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.centerbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

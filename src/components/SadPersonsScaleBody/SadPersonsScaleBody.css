@@ -1,0 +1,81 @@
+.SadPersonsScaleBody {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.SadPersonsScaleBody__heading {
+  height: 1.688rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.SadPersonsScaleBody__outline {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1rem 0;
+  min-height: 5rem;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.SadPersonsScaleBody__outlineInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SadPersonsScaleBody__disorder {
+  height: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+.SadPersonsScaleBody__checkmark {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  left: 1046px;
+  top: 213px;
+
+  border: 1.5px solid #000000;
+}
+
+.SadPersonsScaleBody__submitButton {
+  width: 14rem;
+  left: 17.9rem;
+  top: 1.8rem;
+  height: 4rem;
+
+  background: #00c2cb;
+  box-shadow: 0rem 1rem 2rem rgba(102, 100, 100, 0.15);
+  border: none;
+  border-radius: 10px;
+}
+
+.SadPersonsScaleBody__submitText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+/* .SadPersonsScaleBody__positionButton {
+    margin-left:;
+  } */

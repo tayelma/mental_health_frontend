@@ -1,0 +1,112 @@
+.QuestionsBody {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.QuestionsBody__heading {
+  height: 1.688rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.QuestionsBody__outline {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1rem 0;
+  min-height: 5rem;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.QuestionsBody__outlineInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.QuestionsBody__disorder {
+  height: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+/* .QuestionsBody__checkmark {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 28px;
+  height: 25px;
+  left: 1046px;
+  top: 213px;
+
+  border: 1.5px solid #000000; */
+/* } */
+
+.QuestionsBody__submitButton {
+  width: 14rem;
+  left: 17.9rem;
+  top: 1.8rem;
+  height: 4rem;
+
+  background: #00c2cb;
+  box-shadow: 0rem 1rem 2rem rgba(102, 100, 100, 0.15);
+  border: none;
+  border-radius: 10px;
+}
+
+.QuestionsBody__submitText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+/* .QuestionsBody__positionButton {
+  margin-left:;
+} */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #00c2cb;
+  color: #00c2cb;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #00c2cb;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #00c2cb;
+}
+
+.paginationDisabled a {
+  color: rgb(177, 171, 171);
+  background-color: rgb(177, 171, 171);
+}

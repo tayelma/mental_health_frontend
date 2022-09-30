@@ -1,0 +1,36 @@
+.SideBar {
+  height: 100%;
+  /* padding: 2em 0 0 0; */
+  background: #ffffff;
+  box-shadow: 1px 0px 24px rgba(0, 0, 0, 0.1);
+}
+
+.SideBar__list {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.SideBar__list .SideBar__row {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: 4.25rem;
+  left: 0rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.SideBar__row #SideBar__icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.SideBar__row #SideBar__title {
+  flex: 70%;
+}

@@ -1,0 +1,128 @@
+.Login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: blue; */
+}
+
+.Logo {
+  margin: 0;
+  padding: 0;
+}
+
+.Login__logobody {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Login__image {
+  width: 32em;
+}
+
+.Login__form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Login__formbody {
+  width: 30rem;
+  height: 23.938rem;
+
+  background: #f4f3f3;
+
+  border: 2px solid #bdbdbd;
+  border-radius: 20px;
+}
+
+.Login__heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  padding: 1rem;
+
+  color: #301b52;
+}
+
+.Login__formOutline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+#Login__staffId {
+  background: #f7f7f7;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+/* check on this in register as well */
+.staffIdinput {
+  padding: 10px;
+  width: 17.188rem;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+.passwordInput {
+  padding: 10px;
+  width: 17.188rem;
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #828282;
+  border-radius: 20px;
+}
+
+.Login__buttonGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Login__spaceBetween {
+  height: 2rem;
+}
+
+.Login__space {
+  width: 2rem;
+}
+
+.Login__loginButton {
+  width: 126px;
+  height: 42px;
+
+  background: #00c2cb;
+  border-radius: 20px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.Login__registerButton {
+  outline: none;
+  border: none;
+  width: 125px;
+  height: 42px;
+
+  background: #301b52;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.Login__forgotPassword {
+  left: 0;
+  color: #301b52;
+  font-weight: 600;
+}

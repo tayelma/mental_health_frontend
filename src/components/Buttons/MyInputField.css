@@ -1,0 +1,9 @@
+.MyInputField__inputField {
+  padding: 10px 20px 10px 20px;
+  width: calc(100% - 40px);
+  background: #f7f7f7;
+  display: block;
+  /* flex-direction: column; */
+  border: 1px solid #828282;
+  border-radius: 20px;
+}

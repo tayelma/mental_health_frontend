@@ -1,0 +1,28 @@
+.questionnaire {
+  /* display: grid; */
+  /* grid-template-columns: 8; */
+  /* height: 100vh; */
+}
+
+.sidebarOuter {
+  /* grid-column-start: 0; */
+  /* grid-column-end: 2; */
+  margin: 0 2em 0 0;
+  width: 16em;
+  position: fixed;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 90%;
+  z-index: 1;
+}
+
+.questionBodyOuter {
+  /* grid-column-start: 2; */
+  /* grid-column-end: 9; */
+  width: 90%;
+  margin-left: 17em;
+  margin-right: auto;
+}

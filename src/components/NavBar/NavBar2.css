@@ -1,0 +1,53 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.NavBar__action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.5em 0 0;
+}
+
+.NavBar__action > * {
+  margin: 0 0.5em;
+}
+
+.NavBar__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  width: 14rem;
+  height: 4rem;
+  background: #00c2cb;
+  border: none;
+  border-radius: 10px;
+}
+
+.NavBar__buttonIcon {
+  color: white;
+}
+
+.NavBar__buttonText {
+  width: 160px;
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

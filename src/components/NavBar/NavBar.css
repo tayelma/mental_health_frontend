@@ -1,0 +1,68 @@
+.navbody {
+  /* width: 1223px; */
+  /* height: 64px; */
+  /* left: 269px; */
+  /* top: 40px; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.diagnosebutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+
+  width: 14rem;
+  /* left: 17.9rem; */
+  /* top: 1.8rem; */
+  height: 4rem;
+
+  background: #00c2cb;
+  box-shadow: 0rem 1rem 2rem rgba(102, 100, 100, 0.15);
+  border: none;
+  border-radius: 10px;
+}
+
+.diagnosetext {
+  width: 160px;
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.diagnoseicon {
+  color: white;
+}
+
+.sidenav {
+  /* position: absolute; */
+  /* left: 1286.28px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.5em 0 0;
+}
+
+.sidenav > * {
+  margin: 0 0.5em;
+}

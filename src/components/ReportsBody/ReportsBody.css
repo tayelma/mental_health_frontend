@@ -1,0 +1,61 @@
+.RecommendationsBody {
+  background: white;
+  padding: 1rem;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  height: 80vh;
+}
+
+.RecommendationsBody__heading {
+  height: 1.688rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.RecommendationsBody__body {
+  padding: 2rem;
+  line-height: 2rem;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -0.01rem;
+  width: 80%;
+}
+
+.RecommendationsBody__referalOption {
+  height: 1.688rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #000000;
+  padding-top: 1rem;
+}
+
+.ReportsBody__submitButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  width: 20rem;
+  height: 4rem;
+  background: #00c2cb;
+  border: none;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.ReportsBody__submitText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,17 @@
+.resultsBody {
+  /* display: grid; */
+  grid-template-columns: 8;
+}
+
+.sidebarOuter {
+  margin: 0 2em 0 0;
+  width: 16em;
+  position: fixed;
+  height: 100%;
+}
+
+.questionBodyOuter {
+  position: fixed;
+  width: 90%;
+  z-index: 1;
+}

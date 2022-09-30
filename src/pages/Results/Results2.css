@@ -1,0 +1,28 @@
+.Results {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Results__sideBar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.Results__main {
+  width: 87%;
+  margin-left: 200px;
+  position: relative;
+}
+
+.Results__navBar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}

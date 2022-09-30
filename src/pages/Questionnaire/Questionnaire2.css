@@ -1,0 +1,36 @@
+.Questionnaire {
+  /* background-color: aqua; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Questionnaire__sidebar {
+  /* background-color: red; */
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  /* padding: 20px; */
+}
+
+.Questionnaire__main {
+  /* background-color: blue; */
+  width: 87%;
+  margin-left: 200px;
+  position: relative;
+}
+
+.Questionnaire__navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+/* .Questionnaire__body {
+  padding: 50px;
+} */
